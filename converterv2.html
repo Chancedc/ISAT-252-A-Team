@@ -1,0 +1,18 @@
+<!DOCtype html>
+<html>
+	<head>
+		<title>mpg to kpl converter</title>
+	</head>
+	<body>
+		<form>
+			Miles per Gallon: <input type = "text" name = "milespergallon"><br>
+			Kilometers per Liter: <input type = "text" name = "kilometersperliter">
+		</form>
+		<button onclick = "Convert()">Convert</button>
+		<script type="text/javascript">
+			Convert = function (number) {
+			return number * 0.425144;
+			};
+		</script>
+	</body>
+</html>
